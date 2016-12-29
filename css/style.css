@@ -22,8 +22,13 @@ Developed @ One Month in NYC
 	clear: both;
 }
 
+.alignleft{
+float: left;
+}
 
-
+.alignright{
+float: right;
+}
 /*-----------------------------------------------------------------------------
 =02 LAYOUT
 -----------------------------------------------------------------------------*/
@@ -34,11 +39,19 @@ margin: 0 auto 0 auto; //let you center your container
 #header{
 background-color: silver;
 padding: 50px;
+
 }
 #main{
 background-color: skyblue;
 padding: 50px;
-
+width: 700px;
+float: left;
+}
+#sidebar{
+  background-color: purple;
+  width: 300px;
+  float: left;
+  padding: 50px;
 }
 #footer{
 background-color: peachpuff;
