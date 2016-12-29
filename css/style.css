@@ -24,10 +24,12 @@ Developed @ One Month in NYC
 
 .alignleft{
 float: left;
+margin: 0 15px 15px 0;
 }
 
 .alignright{
 float: right;
+margin: 0 0 15px 15px;
 }
 /*-----------------------------------------------------------------------------
 =02 LAYOUT
